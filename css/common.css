@@ -1,0 +1,617 @@
+@charset "UTF-8";
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\000032}}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-style: normal;
+  box-sizing: border-box;
+  font-size: 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\0000310}}
+html, body {
+  width: 100%;
+  font-size: 62.5%;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  overflow: scorll-y; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\0000316}}
+a:active {
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\0000320}}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\0000328}}
+.inlineBlick {
+  display: inline-block;
+  margin-left: -12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\0000333}}
+.left {
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\0000337}}
+.right {
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\0000362}}
+ul, li {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\0000366}}
+html, body, .wrap {
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\0000369}}
+a {
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\0000372}}
+h2, h3 {
+  font-weight: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\0000375}}
+body {
+  -webkit-user-select: none;
+  -webkit-font-size-adjust: none;
+  -webkit-tap-highlight-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\0000380}}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\0000383}}
+.wid {
+  width: 1020px;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\0000388}}
+.wrap header {
+  height: 60rem;
+  width: 100%;
+  background: url(../img/banner-bg.png);
+  background-size: 100% 100%;
+  color: #FFF;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\0000397}}
+.wrap .main {
+  min-height: 50rem;
+  margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003101}}
+.wrap footer {
+  background: #F4F4F4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003105}}
+header .logo {
+  width: 174px;
+  height: 100%;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003111}}
+header .logo img {
+  display: inline-block;
+  margin-top: 18px;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003116}}
+header .logo span {
+  font-size: 20px;
+  color: #fff;
+  line-height: 60px;
+  padding-left: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003123}}
+header .create_quick {
+  font-size: 20px;
+  color: #fff;
+  line-height: 60px;
+  padding-left: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003130}}
+header .create_menu ul {
+  background: #12B7F5;
+  margin-left: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003134}}
+header .create_menu ul li a {
+  color: #fff;
+  font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003138}}
+header .create_menu ul li {
+  color: #fff;
+  float: left;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003145}}
+header .create_menu ul li span {
+  font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003149}}
+header .create_menu ul li.onFont span,
+header .create_menu ul li:hover span {
+  border-bottom: 2px solid  #12B7F5;
+  padding-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003154}}
+header .topBanner .bannerLeft {
+  width: 50%;
+  margin-right: 8%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003158}}
+header .topBanner .bannerRight {
+  width: 40%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003161}}
+header .topBanner .bannerLeft h2 {
+  font-weight: normal;
+  font-size: 3rem;
+  color: #fff;
+  margin-top: 13rem;
+  line-height: 116px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003168}}
+header .topBanner .bannerLeft p {
+  font-size: 2.2rem;
+  line-height: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003172}}
+header .topBanner .bannerLeft .downloadBtn {
+  margin-top: 6rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003175}}
+header .topBanner .bannerLeft .downloadBtn a {
+  padding-right: 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003178}}
+header .topBanner .bannerLeft .downloadBtn a img {
+  width: 30%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003181}}
+header .topBanner .bannerRight .iphoneBlock {
+  width: 90%;
+  height: 100%;
+  margin-left: 6rem;
+  margin-top: 3rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003187}}
+header .topBanner .bannerRight .iphoneBlock img {
+  width: 75%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003190}}
+.main h2 {
+  margin-top: 5rem;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003194}}
+.main h2 span {
+  border-bottom: 2px solid #12B7F5;
+  font-size: 2.2rem;
+  color: #020202;
+  padding-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003200}}
+.main .mainText {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 24px;
+  color: #9D9D9D; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003207}}
+.main .productInner {
+  margin-top: 6rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003210}}
+.main .productInner .productBlock {
+  width: 23%;
+  margin-right: 2%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003214}}
+.main .productInner .productBlock h3 {
+  font-size: 1.6rem;
+  color: #090909;
+  text-align: center;
+  margin-top: 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003220}}
+.main .productInner .productBlock p {
+  margin-top: 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003223}}
+.footer .contactWrap {
+  padding: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003227}}
+.footer .contactWrap .contact {
+  height: 240px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003230}}
+.footer .contactWrap .contactLeft {
+  width: 50%;
+  background: #444;
+  padding: 20px;
+  height: 240px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003236}}
+.footer .contactWrap .contactLeft h2 span {
+  border-bottom: 2px solid #fff;
+  font-size: 1.8rem;
+  color: #fff;
+  padding-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003242}}
+.footer .contactWrap .contactLeft .contactText {
+  margin-top: 4rem;
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003248}}
+.footer .contactWrap .contactLeft .TextRight {
+  width: 40%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003251}}
+.footer .contactWrap .contactLeft .TextRight img {
+  width: 65%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003254}}
+.footer .contactWrap .contactRight {
+  width: 50%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003259}}
+.footer .contactWrap .contactRight img {
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003263}}
+.footer .copyright {
+  font-size: 1.6rem;
+  color: #666666;
+  text-align: center;
+  line-height: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003270}}
+.wrap .download-page {
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003273}}
+.wrap .mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  -moz-opacity: .90;
+  -khtml-opacity: .90;
+  opacity: .90;
+  filter: alpha(opacity=90);
+  background-color: #fff;
+  z-index: 2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003287}}
+.wrap .download-page .d-p-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  z-index: 8; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003296}}
+.wrap .download-page .d-p-content .p-w-title {
+  margin: 90px 0 0;
+  padding-bottom: 70px;
+  position: relative;
+  color: #333;
+  font-family: "PingFang SC","Hiragino Sans GB","Microsoft Yahei";
+  font-size: 3rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003304}}
+.wrap .download-page .d-p-content .p-w-line {
+  border-bottom: 1px solid #f1efec; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003307}}
+.wrap .download-page .d-p-content .p-w-code .w-c-txt {
+  padding: 30px 0;
+  color: #333;
+  font-family: "PingFang SC","Hiragino Sans GB","Microsoft Yahei";
+  font-size: 3rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003313}}
+.wrap .download-page .d-p-content .p-w-title .icon {
+  position: absolute;
+  top: 6px;
+  right: 0;
+  width: 35px;
+  height: 35px;
+  font-size: 4rem;
+  line-height: 35px;
+  color: #666;
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003324}}
+.wrap .download-page .d-p-content .p-w-code .icon {
+  margin: 0 auto;
+  width: 280px;
+  height: 280px;
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003330}}
+.wrap .download-page .d-p-content .p-w-code .icon img {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003333}}
+.d-p-content {
+  width: 50%;
+  margin: 0 auto 40px;
+  text-align: center; }
+
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003339}}
+  body, html {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003342}}
+  header .logo {
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    margin-left: 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003348}}
+  .wrap header {
+    height: 22rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003351}}
+  header .create_menu {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003354}}
+  header .topBanner .bannerLeft h2 {
+    font-weight: normal;
+    font-size: 1.3rem;
+    color: #fff;
+    margin-top: 2rem;
+    line-height: 30px;
+    margin-left: 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003362}}
+  header .topBanner .bannerLeft p {
+    font-size: 1.2rem;
+    line-height: 20px;
+    margin-left: 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003368}}
+  .wid {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003372}}
+  header .topBanner .bannerLeft .downloadBtn {
+    margin-top: 2rem;
+    margin-left: 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003376}}
+  header .topBanner .bannerRight .iphoneBlock {
+    width: 90%;
+    height: 100%;
+    margin-left: 0rem;
+    margin-top: 0rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003382}}
+  .main .mainText {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 24px;
+    color: #9D9D9D; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003389}}
+  .main .productInner .productBlock {
+    width: 70%;
+    margin: 2% 15%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003393}}
+  .main .productInner {
+    margin-top: 0rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003396}}
+  .footer .contactWrap .contactLeft {
+    width: 100%;
+    background: #444;
+    padding: 20px;
+    height: 200px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003401}}
+  .footer .contactWrap .contactLeft .TextRight {
+    width: 35%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003404}}
+  .footer .contactWrap .contactLeft .TextRight img {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003407}}
+  .footer .contactWrap .contactLeft h2 span {
+    border-bottom: 2px solid #fff;
+    font-size: 1.2rem;
+    color: #fff;
+    padding-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003413}}
+  .footer .contactWrap .contactLeft .contactText {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #fff;
+    line-height: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003419}}
+  .footer .contactWrap .contactRight {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003422}}
+  .footer .contactWrap {
+    padding: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003425}}
+  .footer .copyright {
+    font-size: 1.2rem;
+    color: #666666;
+    text-align: center;
+    line-height: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003431}}
+  .d-p-content {
+    width: 80%;
+    margin: 0 auto 40px;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003436}}
+  .wrap .download-page .d-p-content .p-w-title,
+  .wrap .download-page .d-p-content .p-w-code .w-c-txt {
+    font-size: 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003440}}
+  .wrap .download-page .d-p-content .p-w-title {
+    padding-bottom: 3rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003443}}
+  .wrap .download-page .d-p-content .p-w-title .icon {
+    position: absolute;
+    top: -4px;
+    right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003448}}
+  .wrap .download-page .d-p-content .p-w-code .icon {
+    margin: 0 auto;
+    width: 15rem;
+    height: 15rem;
+    display: block; } }
+@media screen and (min-width: 413px) and (max-width: 414px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003456}}
+  header .topBanner .bannerRight .iphoneBlock img {
+    width: 66%; } }
+@media screen and (min-width: 415px) and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003461}}
+  body, html {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003464}}
+  header .logo {
+    width: 160px;
+    height: 100%;
+    text-align: center;
+    margin-left: 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003470}}
+  .wrap header {
+    height: 39rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003473}}
+  header .create_menu {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003476}}
+  header .topBanner .bannerLeft h2 {
+    font-weight: normal;
+    font-size: 3rem;
+    color: #fff;
+    margin-top: 2rem;
+    line-height: 30px;
+    margin-left: 2rem;
+    padding: 5rem 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003485}}
+  header .topBanner .bannerLeft p {
+    font-size: 2rem;
+    line-height: 28px;
+    margin-left: 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003491}}
+  .wid {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003494}}
+  header .topBanner .bannerRight .iphoneBlock {
+    width: 80%;
+    height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003498}}
+  .main .mainText {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 24px;
+    color: #9D9D9D; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003505}}
+  .main .productInner .productBlock {
+    width: 40%;
+    margin: 2% 5%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003509}}
+  .footer .contactWrap .contactLeft .TextRight {
+    width: 35%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003512}}
+  .footer .contactWrap .contact {
+    height: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003515}}
+  .footer .contactWrap .contactLeft, .map {
+    float: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003518}}
+  .footer .contactWrap .contactLeft .TextRight img {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003521}}
+  .footer .contactWrap .contactLeft h2 span {
+    border-bottom: 2px solid #fff;
+    font-size: 2.2rem;
+    color: #fff;
+    padding-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003527}}
+  .footer .contactWrap .contactLeft .contactText p {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #fff;
+    line-height: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003533}}
+  .footer .contactWrap .contactLeft {
+    width: 100%;
+    background: #444;
+    padding: 20px;
+    height: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003539}}
+  .footer .contactWrap .contactRight {
+    width: 100%;
+    height: 22rem; } }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003545}}
+  html, body {
+    overflow-x: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003548}}
+  header .logo, header .topBanner .bannerLeft p,
+  .wrap header, header .topBanner .bannerLeft h2 {
+    padding-left: 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003552}}
+  .create_menu {
+    margin-right: 30px; } }
