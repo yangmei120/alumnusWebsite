@@ -280,7 +280,7 @@ header .topBanner .bannerRight .iphoneBlock img {
   font-size: 1.6rem;
   color: #666666;
   text-align: center;
-  line-height: 30px; }
+  line-height: 30px; margin-bottom: 10px;}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003270}}
 .wrap .download-page {
