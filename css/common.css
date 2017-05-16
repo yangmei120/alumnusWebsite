@@ -255,11 +255,11 @@ header .topBanner .bannerRight .iphoneBlock img {
   margin-top: 4rem;
   font-size: 1.6rem;
   color: #fff;
-  line-height: 30px; }
+  line-height: 30px;width: 60%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003248}}
 .footer .contactWrap .contactLeft .TextRight {
-  width: 40%; }
+  width: 40%;text-align: right; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/lenovo\/Desktop\/xylWebsite\/css\/common\.scss}line{font-family:\00003251}}
 .footer .contactWrap .contactLeft .TextRight img {
